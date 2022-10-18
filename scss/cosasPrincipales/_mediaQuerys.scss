@@ -15,4 +15,17 @@
             grid-template-columns: repeat(1, 1fr);
         }
     }
+
+    .textoPrincipal {
+        .tituloPrincipal {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .main-index {
+        .contenedorInicio {
+            flex-wrap: wrap;
+        }
+    }
 }

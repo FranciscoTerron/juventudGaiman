@@ -5,10 +5,11 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     background-color:
         #F7F7FF;
 }
@@ -33,6 +34,7 @@ main .textoPrincipal h1 {
 @import './secciones/index';
 @import './secciones/quienesSomos';
 @import './secciones/novedades';
+@import './secciones/proyectos/proyecto1';
 
 @import './cosasPrincipales/pieDePagina.scss';
 @import './cosasPrincipales/mediaQuerys';

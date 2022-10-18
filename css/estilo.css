@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   background-color: #F7F7FF; }
 
 main {
@@ -19,7 +20,7 @@ main .textoPrincipal h1 {
   font-weight: bold; }
 
 header {
-  font-family: 'Arvo', serif;
+  font-family: 'Bebas Neue', cursive;
   background-color: #C03221;
   position: sticky;
   top: 0;
@@ -36,7 +37,7 @@ header {
       display: flex; }
       header .navbar-collapse .navbar-nav .nav-item a {
         color: white;
-        font-size: 25px;
+        font-size: 30px;
         margin: 10px;
         text-decoration: none; }
         header .navbar-collapse .navbar-nav .nav-item a:hover {
@@ -108,7 +109,7 @@ header {
       font-size: 22px;
       font-weight: bold; }
       .main-index .contenedorInicio .seccion1 a:hover {
-        color: white; }
+        color: #C03221; }
   .main-index .contenedorInicio .seccion2 {
     display: flex;
     flex-direction: column;
@@ -126,7 +127,7 @@ header {
       font-size: 22px;
       font-weight: bold; }
       .main-index .contenedorInicio .seccion2 a:hover {
-        color: white; }
+        color: #C03221; }
   .main-index .contenedorInicio .seccion3 {
     display: flex;
     flex-direction: column;
@@ -144,7 +145,7 @@ header {
       font-size: 22px;
       font-weight: bold; }
       .main-index .contenedorInicio .seccion3 a:hover {
-        color: white; }
+        color: #C03221; }
 
 .main-quienesSomos .contenedorQuienesSomos {
   display: flex;
@@ -160,7 +161,8 @@ header {
       margin-top: 10px; }
     .main-quienesSomos .contenedorQuienesSomos .contenidoQuienesSomos h2 {
       text-align: center;
-      font-size: 25px; }
+      font-size: 25px;
+      margin: 15px 0px; }
     .main-quienesSomos .contenedorQuienesSomos .contenidoQuienesSomos p {
       text-align: center;
       margin-top: 15px; }
@@ -176,7 +178,32 @@ header {
   align-items: center;
   justify-items: center; }
   .main-novedades .grid-container .card {
-    margin: 15px 0px; }
+    margin: 15px 0px;
+    border: none;
+    border-radius: 5%;
+    background-color: burlywood; }
+    .main-novedades .grid-container .card .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .main-novedades .grid-container .card .card-body a {
+        background-color: black;
+        color: white;
+        padding: 15px; }
+        .main-novedades .grid-container .card .card-body a:hover {
+          background-color: white;
+          color: black; }
+
+.main-proyecto1 .contenedorProyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .main-proyecto1 .contenedorProyecto .contenidoProyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    margin-bottom: 15px; }
 
 footer {
   background-color: #2E4057;
@@ -214,4 +241,9 @@ footer {
 
 @media (max-width: 567px) {
   .main-novedades .grid-container {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+  .textoPrincipal .tituloPrincipal {
+    font-size: 30px;
+    text-align: center; }
+  .main-index .contenedorInicio {
+    flex-wrap: wrap; } }

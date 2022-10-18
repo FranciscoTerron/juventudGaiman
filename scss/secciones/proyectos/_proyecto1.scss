@@ -1,0 +1,16 @@
+.main-proyecto1 {
+    .contenedorProyecto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .contenidoProyecto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 800px;
+            margin-bottom: 15px;
+        }
+    }
+
+}
