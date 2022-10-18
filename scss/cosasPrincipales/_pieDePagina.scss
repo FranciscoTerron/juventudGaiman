@@ -1,0 +1,47 @@
+footer {
+
+    background-color: #2E4057;
+    height: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+
+    p {
+        color: #ffffff;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 0;
+        margin-top: 15px;
+        text-decoration: none;
+
+    }
+
+    ul {
+        display: flex;
+        width: 100%;
+        margin: 15px auto;
+        justify-content: center;
+        list-style: none;
+        align-items: center;
+
+
+        .fa-brands {
+            font-size: 50px;
+            margin: 0px 8px;
+        }
+
+        .fa-facebook {
+            color: #66A182;
+
+        }
+
+        .fa-twitter {
+            color: rgb(15, 15, 15);
+        }
+
+        .fa-instagram {
+            color: rgb(226, 226, 226);
+        }
+
+    }
+}

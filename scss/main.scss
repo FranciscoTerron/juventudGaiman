@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:
+        #F7F7FF;
+}
+
+
+main {
+    min-height: 85vh;
+}
+
+main .textoPrincipal h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 35px 0px;
+    font-weight: bold;
+}
+
+// Hojas Parciales
+
+
+@import './cosasPrincipales/_encabezado.scss';
+@import './secciones/contacto';
+@import './secciones/index';
+@import './secciones/quienesSomos';
+@import './secciones/novedades';
+
+@import './cosasPrincipales/pieDePagina.scss';
+@import './cosasPrincipales/mediaQuerys';

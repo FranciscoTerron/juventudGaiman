@@ -1,0 +1,95 @@
+.main-index {
+    .banner {}
+
+    .contenedorInicio {
+        margin: 20px 0px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .seccion1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                border-radius: 5%;
+
+                &:hover {
+                    transform: scale(1.10) translate(5px, 5px);
+                    transition: .3s;
+                    border-radius: 5%;
+                }
+            }
+
+            a {
+                margin: 20px 0px;
+                text-decoration: none;
+                color: black;
+                font-size: 22px;
+                font-weight: bold;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+
+
+        .seccion2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                border-radius: 5%;
+
+                &:hover {
+                    transform: scale(1.10) translate(5px, 5px);
+                    transition: .3s;
+                    border-radius: 5%;
+                }
+            }
+
+            a {
+                margin: 20px 0px;
+                text-decoration: none;
+                color: black;
+                font-size: 22px;
+                font-weight: bold;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+
+        .seccion3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                border-radius: 5%;
+
+                &:hover {
+                    transform: scale(1.10) translate(5px, 5px);
+                    transition: .3s;
+                    border-radius: 5%;
+                }
+            }
+
+            a {
+                margin: 20px 0px;
+                text-decoration: none;
+                color: black;
+                font-size: 22px;
+                font-weight: bold;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+
+    }
+}

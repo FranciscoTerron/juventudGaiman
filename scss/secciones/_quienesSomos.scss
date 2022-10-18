@@ -1,0 +1,42 @@
+.main-quienesSomos {
+    .contenedorQuienesSomos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .contenidoQuienesSomos {
+            max-width: 800px;
+            border-radius: 5%;
+            padding: 10px;
+            margin-bottom: 15px;
+
+            h4 {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 25px;
+            }
+
+            p {
+                text-align: center;
+                margin-top: 15px;
+            }
+
+            .contenidoImagen {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    margin: 20px 0px;
+                }
+            }
+
+
+        }
+    }
+
+
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+/* Fuente 
+
+    body : inconsolata
+
+*/
+
+/* Paleta de colores 
+
+header : #CAFFB9
+body : #66A182
+footer : #2E4057
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #66A182;
+}
+
+/* Encaezado */
+
+header {
+    font-family: 'Arvo', serif;
+    background-color: #CAFFB9;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 15px;
+
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+main {
+    min-height: 85vh;
+}
+
+main .textoPrincipal h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 35px 0px;
+    font-weight: bold;
+}
+
+
+.main-index .contenedorInicio {
+    margin: 20px 0px;
+}
+
+
+
+
+footer {
+    background-color: #2E4057;
+}

@@ -1,0 +1,42 @@
+header {
+    font-family: 'Arvo', serif;
+    background-color: #C03221;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    max-width: 100%;
+
+    padding: 15px;
+
+
+    .navbar-collapse {
+        list-style: none;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        .navbar-nav {
+            display: flex;
+
+            .nav-item {
+
+
+                a {
+                    color: white;
+                    font-size: 25px;
+                    margin: 10px;
+                    text-decoration: none;
+
+                    &:hover {
+                        font-weight: bold;
+                        color: rgb(2, 1, 1) !important;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+}
